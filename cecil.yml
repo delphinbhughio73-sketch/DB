@@ -1,0 +1,20 @@
+
+title: "Delphin Bhughio"
+baseline: "Développeur Web | Informatique de gestion"
+baseurl: "http://localhost:8000/"
+description: "Portfolio personnel de Delphin Bhughio. Découvrez mon parcours, mes compétences en développement web, mes réalisations et mes projets informatiques."
+
+language: fr
+
+languages:
+  - code: fr
+    name: Français
+    locale: fr_FR
+
+author:
+  name: "Delphin Bhughio"
+
+image: icon.png
+
+taxonomies:
+  tags: tag

@@ -1,0 +1,97 @@
+
+/* =================================
+   PORTFOLIO - DELPHIN BHUGHIO
+   Design sombre et bleu professionnel
+================================= */
+
+:root {
+  --pico-background-color: #0b1120;
+  --pico-color: #e5e7eb;
+  --pico-primary: #60a5fa;
+  --pico-primary-background: #2563eb;
+  --pico-primary-hover: #3b82f6;
+  --pico-primary-inverse: #ffffff;
+  --pico-card-background-color: #17243a;
+  --pico-card-border-color: #263750;
+  --pico-muted-color: #94a3b8;
+  --pico-muted-border-color: #263750;
+}
+
+/* Arrière-plan général */
+body {
+  background: #0b1120;
+  color: #e5e7eb;
+}
+
+/* En-tête */
+body > header {
+  background: #0b1120;
+  border-bottom: 1px solid #263750;
+}
+
+/* Nom du portfolio */
+.site-title,
+.site-title a {
+  color: #60a5fa;
+}
+
+/* Navigation */
+body > header nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+body > header nav a:hover {
+  color: #60a5fa;
+}
+
+/* Contenu */
+body > main {
+  min-height: 70vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Titres */
+h1, h2, h3 {
+  color: #f8fafc;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+/* Liens */
+a {
+  color: #60a5fa;
+}
+
+a:hover {
+  color: #93c5fd;
+}
+
+/* Pied de page */
+body > footer {
+  background: #0b1120;
+  border-top: 1px solid #263750;
+  color: #94a3b8;
+  text-align: center;
+}
+
+/* Images */
+img {
+  border-radius: 12px;
+  max-width: 100%;
+}
+
+/* Adaptation aux téléphones */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  body > main {
+    padding-top: 2rem;
+  }
+}
